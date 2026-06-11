@@ -1,0 +1,18 @@
+; BIND9 reverse data file for corp.net.
+$TTL 3H
+$ORIGIN 27.31.172.in-addr.arpa.
+@       IN SOA   ns1.corp.net. hostmaster.corp.net. (
+                                        1       ; serial
+                                        1D      ; refresh
+                                        1H      ; retry
+                                        1W      ; expire
+                                        3H )    ; minimum
+;
+@           IN NS   ns1.corp.net.
+100         IN PTR  web.corp.net.
+121         IN PTR  ftp.corp.net.
+124         IN PTR  banner.corp.net.
+197         IN PTR  database.corp.net.
+@           IN TXT  "FLAG{5ecur3_r3verse_z0nes_t00}"
+201         IN PTR  ns1.corp.net.
+203         IN PTR  remoteshell.corp.net.
