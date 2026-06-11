@@ -43,7 +43,7 @@ PORT   STATE SERVICE
 
 ## PART 0x01 -- Packet Capture Analysis
 
-Download the provided [[\\CYBERNAS\Internal\Documentation\Cyber_Range\CTF03_REMOTE_SHELL\CTF03_REMOTE_SHELL_PCAP.pcapng|PCAP file]] and determine how a user authenticated to the TELNET server.
+Download the [PCAPNG file](REMOTE_SHELL_PCAP.pcapng) and determine how a user authenticated to the TELNET server.
 
 Filter for TELNET traffic and follow the TCP stream to inspect the session contents.
 
