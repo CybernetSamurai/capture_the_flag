@@ -1,0 +1,18 @@
+; BIND9 forward data file for corp.net.
+$TTL 3H
+$ORIGIN corp.net.
+@       IN SOA   ns1.corp.net. hostmaster.corp.net. (
+                                        1       ; serial
+                                        1D      ; refresh
+                                        1H      ; retry
+                                        1W      ; expire
+                                        3H )    ; minimum
+;
+@           IN NS   ns1.corp.net.
+web         IN A    172.31.27.100
+ftp         IN A    172.31.27.121
+banner      IN A    172.31.27.124
+@           IN TEXT "FLAG{un@uth0r1zed_zon3_xfer}"
+database    IN A    172.31.27.197
+ns1         IN A    172.31.27.201
+remoteshell IN A    172.31.27.203
