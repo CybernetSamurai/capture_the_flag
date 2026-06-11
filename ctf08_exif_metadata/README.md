@@ -10,7 +10,7 @@ DIFFICULTY: Novice
 
 ESTIMATED TIME: 5 minutes
 
-TARGET: [[\\CYBERNAS\Internal\Documentation\Cyber_Range\CTF08_EXIF_METADATA\cat.jpg|cat.jpg]]
+TARGET: [cat.jpg](cat.jpg)
 
 OBJECTIVES:
 + Extract EXIF metadata from a JPG image
